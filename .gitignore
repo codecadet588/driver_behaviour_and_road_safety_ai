@@ -1,0 +1,73 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ENV/
+
+# Jupyter and notebook outputs
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and model artifacts
+*.csv
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.weights
+*.bin
+*.npy
+*.npz
+*.jsonl
+*.parquet
+*.sqlite
+*.db
+
+# Large project/generated folders
+runs/
+checkpoints/
+out/
+outputs/
+artifacts/
+weights/
+models/
+model_store/
+mlruns/
+wandb/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Environment files with secrets
+.env
+.env.*
+*.env
+
+# Optional: common training data folders
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Optional: compiled or generated notebooks
+*.ipynb
+
+# Keep repo script files but ignore generated outputs
+# If you want to keep documentation and code, not datasets, do not ignore .md or .py
